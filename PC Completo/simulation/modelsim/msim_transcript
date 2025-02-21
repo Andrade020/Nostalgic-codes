@@ -1,0 +1,181 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do PCCompleto_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/Cont_256/Cont_8.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Cont_8
+# -- Compiling architecture X of Cont_8
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UC
+# -- Compiling architecture X of UC
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/Rom/Rom.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM
+# -- Compiling architecture behavioral of ROM
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples
+# -- Compiling architecture X of Proc_Simples
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/PC/PC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PC
+# -- Compiling architecture X of PC
+# 
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+vsim work.proc_simples_tb
+# vsim work.proc_simples_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.proc_simples_tb(x)
+# Loading work.proc_simples(x)
+# Loading work.pc(x)
+# Loading work.cont_8(x)
+# Loading work.rom(behavioral)
+# Loading work.uc(x)
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd}
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples
+# -- Compiling architecture X of Proc_Simples
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples
+# -- Compiling architecture X of Proc_Simples
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(14): (vcom-1136) Unknown identifier "R_ui".
+# 
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(14): Bad resolution function (STD_LOGIC) for type (error).
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(14): near ":": expecting ';' or ')'
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(21): near "R_ui": expecting ',' or ')'
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(37): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(21): (vcom-1136) Unknown identifier "R_ui".
+# 
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(37): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(21): (vcom-1136) Unknown identifier "R_ui".
+# 
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(37): near "EOF": expecting ';'
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(21): (vcom-1136) Unknown identifier "R_ui".
+# 
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(37): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(21): (vcom-1136) Unknown identifier "R_ui".
+# 
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(37): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples
+# -- Compiling architecture X of Proc_Simples
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture X of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(21): (vcom-1136) Unknown identifier "R_ui".
+# 
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(37): VHDL Compiler exiting

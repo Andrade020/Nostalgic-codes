@@ -1,0 +1,227 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Lucas\Downloads\PC Completo\simulation\modelsim
+Econt_8
+Z1 w1463576516
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Lucas\Downloads\PC Completo\simulation\modelsim
+Z6 8C:/Users/Lucas/Downloads/PC Completo/Cont_256/Cont_8.vhd
+Z7 FC:/Users/Lucas/Downloads/PC Completo/Cont_256/Cont_8.vhd
+l0
+L5
+VXl<0z1S<a9PYF_8WnWUbQ0
+Z8 OV;C;10.1e;51
+31
+Z9 !s108 1499362580.471000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Lucas/Downloads/PC Completo/Cont_256/Cont_8.vhd|
+Z11 !s107 C:/Users/Lucas/Downloads/PC Completo/Cont_256/Cont_8.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 h;8WN0kli[X3iHf:XGWRV2
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 6 cont_8 0 22 Xl<0z1S<a9PYF_8WnWUbQ0
+l13
+L11
+VoY9UhY5RiRHB[JTz0^?lX0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 =]TV2cSQNI2[9j@6SMXMi3
+!i10b 1
+Epc
+Z14 w1467377932
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Lucas/Downloads/PC Completo/PC/PC.vhd
+Z16 FC:/Users/Lucas/Downloads/PC Completo/PC/PC.vhd
+l0
+L5
+VR_9kDDUCRn8YF]jGnIka83
+R8
+31
+Z17 !s108 1499362590.518000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Lucas/Downloads/PC Completo/PC/PC.vhd|
+Z19 !s107 C:/Users/Lucas/Downloads/PC Completo/PC/PC.vhd|
+R12
+R13
+!s100 [DKU9]NUCL18aM8?1@U]41
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 R_9kDDUCRn8YF]jGnIka83
+l19
+L11
+V6l=g;GC<SaaeE^dP^`OES3
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 ?Y81gNO5:ZMC=bZNQ8=CW2
+!i10b 1
+Eproc_simples
+Z20 w1499377402
+R2
+R3
+R4
+R5
+Z21 8C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd
+Z22 FC:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd
+l0
+L5
+V384Ya<UF3j;RT8EKj<Y;T3
+R8
+32
+Z23 !s108 1499377663.862000
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd|
+Z25 !s107 C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd|
+Z26 o-work work -O0
+R13
+!s100 2=ihh@zMAo9AZcCS<n8^e2
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 12 proc_simples 0 22 384Ya<UF3j;RT8EKj<Y;T3
+l57
+L12
+VnY7Z8JI`1[6inBd3S0?OE0
+R8
+32
+R23
+R24
+R25
+R26
+R13
+!s100 U>imPD`GLdUAU3F^ccYzY1
+!i10b 1
+Eproc_simples_tb
+Z27 w1499364863
+R2
+R3
+R4
+R5
+Z28 8C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd
+Z29 FC:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd
+l0
+L5
+V50H2d6zeE3_JZZeZ]kkVK1
+!s100 3gYQRW::KLId^Q7;<lRWX3
+R8
+32
+!i10b 1
+!s108 1499377701.904000
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd|
+!s107 C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd|
+R26
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 15 proc_simples_tb 0 22 50H2d6zeE3_JZZeZ]kkVK1
+l15
+L8
+V=V_F?9I[g4^OTSCk;5zi;0
+R8
+32
+R30
+R26
+R13
+!s107 C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd|
+!s108 1499362622.940000
+!s100 S^Ozd4HCD6YY9?dQ0IA0J3
+!i10b 1
+Erom
+Z31 w1464185430
+R2
+R3
+R4
+R5
+Z32 8C:/Users/Lucas/Downloads/PC Completo/Rom/Rom.vhd
+Z33 FC:/Users/Lucas/Downloads/PC Completo/Rom/Rom.vhd
+l0
+L5
+V`>7k;4mTYz5abl7HT7=^d3
+R8
+31
+Z34 !s108 1499362585.433000
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/Lucas/Downloads/PC Completo/Rom/Rom.vhd|
+Z36 !s107 C:/Users/Lucas/Downloads/PC Completo/Rom/Rom.vhd|
+R12
+R13
+!s100 W04kZ=la83g>dPZ45X;?i1
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 3 rom 0 22 `>7k;4mTYz5abl7HT7=^d3
+l30
+L10
+VIMR9JjN^_EEG1RjR7f`z83
+R8
+31
+R34
+R35
+R36
+R12
+R13
+!s100 XYCz@1]GnSMOMo^_oCd]m1
+!i10b 1
+Euc
+Z37 w1465567943
+R2
+R3
+R4
+R5
+Z38 8C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd
+Z39 FC:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd
+l0
+L5
+Vb_4z0^WCn^>T9AKzeiS3=3
+R8
+31
+Z40 !s108 1499362583.091000
+Z41 !s90 -reportprogress|300|-93|-work|work|C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd|
+Z42 !s107 C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd|
+R12
+R13
+!s100 eUNTC`]<`>nzg>N[Xjl[=0
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 2 uc 0 22 b_4z0^WCn^>T9AKzeiS3=3
+l12
+L11
+VCFjS@d;EBNH4jbe]R_2@53
+R8
+31
+R40
+R41
+R42
+R12
+R13
+!s100 HX;]@Kz>z2Sh_MY^Y=I6c3
+!i10b 1

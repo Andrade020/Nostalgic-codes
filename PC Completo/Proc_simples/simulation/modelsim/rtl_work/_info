@@ -1,0 +1,307 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Lucas\Downloads\HORA DO PAU\PC Completo\Proc_simples\simulation\modelsim
+Econt_8
+Z1 w1499688436
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Lucas\Downloads\HORA DO PAU\PC Completo\Proc_simples\simulation\modelsim
+Z6 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Cont_256/Cont_8.vhd
+Z7 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Cont_256/Cont_8.vhd
+l0
+L5
+VXl<0z1S<a9PYF_8WnWUbQ0
+Z8 OV;C;10.1e;51
+31
+Z9 !s108 1499693783.266000
+Z10 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Cont_256/Cont_8.vhd|
+Z11 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Cont_256/Cont_8.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 h;8WN0kli[X3iHf:XGWRV2
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 6 cont_8 0 22 Xl<0z1S<a9PYF_8WnWUbQ0
+l13
+L11
+VoY9UhY5RiRHB[JTz0^?lX0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 =]TV2cSQNI2[9j@6SMXMi3
+!i10b 1
+Epc
+Z14 w1499688437
+R2
+R3
+R4
+R5
+Z15 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/PC/PC.vhd
+Z16 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/PC/PC.vhd
+l0
+L5
+VR_9kDDUCRn8YF]jGnIka83
+R8
+31
+Z17 !s108 1499693792.344000
+Z18 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/PC/PC.vhd|
+Z19 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/PC/PC.vhd|
+R12
+R13
+!s100 [DKU9]NUCL18aM8?1@U]41
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 R_9kDDUCRn8YF]jGnIka83
+l19
+L11
+V6l=g;GC<SaaeE^dP^`OES3
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 ?Y81gNO5:ZMC=bZNQ8=CW2
+!i10b 1
+Eproc_simples
+Z20 w1499688433
+R2
+R3
+R4
+R5
+Z21 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples.vhd
+Z22 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples.vhd
+l0
+L5
+VK`?dWYL]kJ6fDLLgMHnb@2
+R8
+31
+Z23 !s108 1499693842.494000
+Z24 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples.vhd|
+Z25 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples.vhd|
+R12
+R13
+!s100 2iL[A7UAnz3L>jGKSEP0T1
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 12 proc_simples 0 22 K`?dWYL]kJ6fDLLgMHnb@2
+l88
+L10
+V0M_^DgREbae_LIjEOF[RB1
+!s100 ZDg_`^W6bX^:756g:k__O2
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!i10b 1
+Eproc_simples_tb
+Z26 w1499688434
+R2
+R3
+R4
+R5
+Z27 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples_tb.vhd
+Z28 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples_tb.vhd
+l0
+L4
+V50H2d6zeE3_JZZeZ]kkVK1
+!s100 odQlBiL1332L8a<8Zg@zX1
+R8
+32
+!i10b 1
+Z29 !s108 1499693850.885000
+Z30 !s90 -reportprogress|300|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples_tb.vhd|
+Z31 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Proc_simples/Proc_Simples_tb.vhd|
+Z32 o-work work -O0
+R13
+Ay
+R2
+R3
+R4
+Z33 DEx4 work 15 proc_simples_tb 0 22 50H2d6zeE3_JZZeZ]kkVK1
+l12
+L6
+Z34 VD<XMbLO8T7YL6h72gSBPH2
+Z35 !s100 5QVE9:13?[f?L@EGPm[n>3
+R8
+32
+!i10b 1
+R29
+R30
+R31
+R32
+R13
+Erom
+Z36 w1499688438
+R2
+R3
+R4
+R5
+Z37 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Rom/Rom.vhd
+Z38 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Rom/Rom.vhd
+l0
+L5
+V`>7k;4mTYz5abl7HT7=^d3
+R8
+31
+Z39 !s108 1499693800.953000
+Z40 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Rom/Rom.vhd|
+Z41 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/Rom/Rom.vhd|
+R12
+R13
+!s100 W04kZ=la83g>dPZ45X;?i1
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 3 rom 0 22 `>7k;4mTYz5abl7HT7=^d3
+l27
+L10
+VJC2E`;7^VbFVY@WUW3G5R2
+R8
+31
+R39
+R40
+R41
+R12
+R13
+!s100 3m?Y<@E3l2habTS8cDBKC0
+!i10b 1
+Euc
+Z42 w1499689585
+R2
+R3
+R4
+R5
+Z43 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UC/UC.vhd
+Z44 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UC/UC.vhd
+l0
+L5
+VQSK2fajWZC_`d1m?AQI7d3
+R8
+31
+Z45 !s108 1499693809.887000
+Z46 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UC/UC.vhd|
+Z47 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UC/UC.vhd|
+R12
+R13
+!s100 :YR82:5COL21hMZ<OW6]71
+!i10b 1
+Abehavioural
+R2
+R3
+R4
+DEx4 work 2 uc 0 22 QSK2fajWZC_`d1m?AQI7d3
+l38
+L31
+VNKPoeZD`NVZJ_MD4A2IfE3
+R8
+31
+R45
+R46
+R47
+R12
+R13
+!s100 J:G;GcNWPkRCj8DVniobP3
+!i10b 1
+Eula
+Z48 w1499659516
+Z49 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z50 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z51 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R2
+R3
+R4
+R5
+Z52 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/ULA/ula.vhd
+Z53 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/ULA/ula.vhd
+l0
+L8
+V<5QTfjWJR6Vj[WXO=nh8K3
+R8
+31
+Z54 !s108 1499693818.262000
+Z55 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/ULA/ula.vhd|
+Z56 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/ULA/ula.vhd|
+R12
+R13
+!s100 3eLL?`2FY?zM1eK_?ZSIz3
+!i10b 1
+Au
+R49
+R50
+R51
+R2
+R3
+R4
+DEx4 work 3 ula 0 22 <5QTfjWJR6Vj[WXO=nh8K3
+l33
+L18
+VA^BEWd1H_M`oRMMhQ:9iN1
+R8
+31
+R54
+R55
+R56
+R12
+R13
+!s100 @^mLa4A<P<Xm>Wg90QDVj3
+!i10b 1
+Eur
+Z57 w1499643619
+R2
+R3
+R4
+R5
+Z58 8C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UR/UR.vhd
+Z59 FC:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UR/UR.vhd
+l0
+L5
+VDUNUlA>En=HVXEQ=2[<6_2
+R8
+31
+Z60 !s108 1499693827.887000
+Z61 !s90 -reportprogress|300|-93|-work|work|-O0|C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UR/UR.vhd|
+Z62 !s107 C:/Users/Lucas/Downloads/HORA DO PAU/PC Completo/UR/UR.vhd|
+R12
+R13
+!s100 YML`IMAfR6dL_3Q5iM_=?1
+!i10b 1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 2 ur 0 22 DUNUlA>En=HVXEQ=2[<6_2
+l16
+L13
+VZmh2N_V0WD]V7J;e62<H91
+R8
+31
+R60
+R61
+R62
+R12
+R13
+!s100 <9T=MmcaO>AUofkaUPCW;2
+!i10b 1

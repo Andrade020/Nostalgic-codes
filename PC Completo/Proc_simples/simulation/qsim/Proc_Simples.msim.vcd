@@ -1,0 +1,616 @@
+$comment
+	File created using the following command:
+		vcd file Proc_Simples.msim.vcd -direction
+$end
+$date
+	Mon Jul 03 12:29:06 2017
+$end
+$version
+	ModelSim Version 10.1e
+$end
+$timescale
+	1ps
+$end
+$scope module Proc_Simples_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " rst $end
+$var wire 1 # PC_Rom1 [7] $end
+$var wire 1 $ PC_Rom1 [6] $end
+$var wire 1 % PC_Rom1 [5] $end
+$var wire 1 & PC_Rom1 [4] $end
+$var wire 1 ' PC_Rom1 [3] $end
+$var wire 1 ( PC_Rom1 [2] $end
+$var wire 1 ) PC_Rom1 [1] $end
+$var wire 1 * PC_Rom1 [0] $end
+$var wire 1 + Rom_UC1 [7] $end
+$var wire 1 , Rom_UC1 [6] $end
+$var wire 1 - Rom_UC1 [5] $end
+$var wire 1 . Rom_UC1 [4] $end
+$var wire 1 / Rom_UC1 [3] $end
+$var wire 1 0 Rom_UC1 [2] $end
+$var wire 1 1 Rom_UC1 [1] $end
+$var wire 1 2 Rom_UC1 [0] $end
+$var wire 1 3 sampler $end
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : clk~input_o $end
+$var wire 1 ; PC1|CPU|Q_tmp[0]~8_combout $end
+$var wire 1 < ~GND~combout $end
+$var wire 1 = rst~input_o $end
+$var wire 1 > PC1|CPU|Q_tmp[0]~9 $end
+$var wire 1 ? PC1|CPU|Q_tmp[1]~10_combout $end
+$var wire 1 @ Rom1|Mux3~0_combout $end
+$var wire 1 A PC1|CPU|Q_tmp[3]~15 $end
+$var wire 1 B PC1|CPU|Q_tmp[4]~16_combout $end
+$var wire 1 C Rom1|Mux4~0_combout $end
+$var wire 1 D UC1|Mux1~0_combout $end
+$var wire 1 E PC1|CPU|Q_tmp[4]~17 $end
+$var wire 1 F PC1|CPU|Q_tmp[5]~18_combout $end
+$var wire 1 G PC1|CPU|Q_tmp[5]~19 $end
+$var wire 1 H PC1|CPU|Q_tmp[6]~20_combout $end
+$var wire 1 I Rom1|Mux3~1_combout $end
+$var wire 1 J UC1|Mux2~0_combout $end
+$var wire 1 K PC1|CPU|Q_tmp[1]~11 $end
+$var wire 1 L PC1|CPU|Q_tmp[2]~12_combout $end
+$var wire 1 M PC1|CPU|Q_tmp[2]~13 $end
+$var wire 1 N PC1|CPU|Q_tmp[3]~14_combout $end
+$var wire 1 O Rom1|Mux6~0_combout $end
+$var wire 1 P Rom1|Mux6~1_combout $end
+$var wire 1 Q Rom1|Mux5~0_combout $end
+$var wire 1 R UC1|Mux0~0_combout $end
+$var wire 1 S PC1|CPU|Q_tmp[6]~21 $end
+$var wire 1 T PC1|CPU|Q_tmp[7]~22_combout $end
+$var wire 1 U PC1|CPU|Q_tmp [7] $end
+$var wire 1 V PC1|CPU|Q_tmp [6] $end
+$var wire 1 W PC1|CPU|Q_tmp [5] $end
+$var wire 1 X PC1|CPU|Q_tmp [4] $end
+$var wire 1 Y PC1|CPU|Q_tmp [3] $end
+$var wire 1 Z PC1|CPU|Q_tmp [2] $end
+$var wire 1 [ PC1|CPU|Q_tmp [1] $end
+$var wire 1 \ PC1|CPU|Q_tmp [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+x3
+04
+15
+x6
+17
+18
+19
+0:
+1;
+0<
+0=
+0>
+0?
+0@
+1A
+0B
+0C
+0D
+0E
+0F
+1G
+0H
+0I
+0J
+1K
+0L
+0M
+0N
+1O
+0P
+0Q
+0R
+0S
+0T
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+$end
+#20000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+1?
+12
+#40000
+0!
+0:
+13
+#60000
+1!
+1:
+03
+0\
+1[
+0>
+1;
+1J
+0K
+0?
+0*
+1)
+0P
+1Q
+1K
+1?
+1L
+0J
+02
+11
+0L
+#80000
+0!
+0:
+13
+#100000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#120000
+0!
+0:
+13
+#140000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#160000
+0!
+0:
+13
+#180000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#200000
+0!
+0:
+13
+#220000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#240000
+0!
+0:
+13
+#260000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#280000
+0!
+0:
+13
+#300000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#320000
+0!
+0:
+13
+#340000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#360000
+0!
+0:
+13
+#380000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#400000
+0!
+0:
+13
+#420000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#440000
+0!
+0:
+13
+#460000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#480000
+0!
+0:
+13
+#500000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#520000
+0!
+0:
+13
+#540000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#560000
+0!
+0:
+13
+#580000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#600000
+0!
+0:
+13
+#620000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#640000
+0!
+0:
+13
+#660000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#680000
+0!
+0:
+13
+#700000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#720000
+0!
+0:
+13
+#740000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#760000
+0!
+0:
+13
+#780000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#800000
+0!
+0:
+13
+#820000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#840000
+0!
+0:
+13
+#860000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#880000
+0!
+0:
+13
+#900000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#920000
+0!
+0:
+13
+#940000
+1!
+1:
+03
+0\
+0>
+1;
+0*
+0P
+1K
+1?
+0R
+0J
+02
+0L
+#960000
+0!
+0:
+13
+#980000
+1!
+1:
+03
+1\
+1>
+0;
+1*
+1P
+0K
+0?
+1R
+1J
+12
+1L
+#1000000

@@ -1,0 +1,176 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do PCCompleto_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/Cont_256/Cont_8.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Cont_8
+# -- Compiling architecture X of Cont_8
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/UR/UR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UR
+# -- Compiling architecture behavioral of UR
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/ULA/ula.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ula
+# -- Compiling architecture u of ula
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity UC
+# -- Compiling architecture behavioural of UC
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/Rom/Rom.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM
+# -- Compiling architecture behavioral of ROM
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples
+# -- Compiling architecture X of Proc_Simples
+# vcom -93 -work work {C:/Users/Lucas/Downloads/PC Completo/PC/PC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PC
+# -- Compiling architecture X of PC
+# 
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples
+# -- Compiling architecture X of Proc_Simples
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture Y of Proc_Simples_tb
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(10): near "out": expecting STRING or IDENTIFIER or << or '('
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(22): (vcom-1136) Unknown identifier "R_ui".
+# 
+# ** Error: C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd(39): VHDL Compiler exiting
+vcom -reportprogress 300 -work work {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture Y of Proc_Simples_tb
+vsim work.proc_simples_tb
+# vsim work.proc_simples_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.proc_simples_tb(y)
+# Loading work.proc_simples(x)
+# Loading work.pc(x)
+# Loading work.cont_8(x)
+# Loading work.rom(behavioral)
+# Loading work.uc(behavioural)
+# ** Failure: (vsim-3817) Port "rst" of entity "uc" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /proc_simples_tb/comp_test/UC1 File: C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd Line: 7
+# ** Failure: (vsim-3817) Port "clk" of entity "uc" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /proc_simples_tb/comp_test/UC1 File: C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd Line: 7
+# Fatal error in file C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd
+#  while elaborating region: /proc_simples_tb/comp_test/UC1
+# Load interrupted
+# Error loading design
+vsim work.proc_simples_tb
+# vsim work.proc_simples_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.proc_simples_tb(y)
+# Loading work.proc_simples(x)
+# Loading work.pc(x)
+# Loading work.cont_8(x)
+# Loading work.rom(behavioral)
+# Loading work.uc(behavioural)
+# ** Failure: (vsim-3817) Port "rst" of entity "uc" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /proc_simples_tb/comp_test/UC1 File: C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd Line: 7
+# ** Failure: (vsim-3817) Port "clk" of entity "uc" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /proc_simples_tb/comp_test/UC1 File: C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd Line: 7
+# Fatal error in file C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd
+#  while elaborating region: /proc_simples_tb/comp_test/UC1
+# Load interrupted
+# Error loading design
+vcom -work work -O0 {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples_tb
+# -- Compiling architecture Y of Proc_Simples_tb
+vcom -work work -O0 {C:/Users/Lucas/Downloads/PC Completo/Proc_simples/Proc_Simples.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Proc_Simples
+# -- Compiling architecture X of Proc_Simples
+vsim work.proc_simples_tb
+# vsim work.proc_simples_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.proc_simples_tb(y)
+# Loading work.proc_simples(x)
+# Loading work.pc(x)
+# Loading work.cont_8(x)
+# Loading work.rom(behavioral)
+# Loading work.uc(behavioural)
+# ** Failure: (vsim-3817) Port "rst" of entity "uc" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /proc_simples_tb/comp_test/UC1 File: C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd Line: 7
+# ** Failure: (vsim-3817) Port "clk" of entity "uc" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /proc_simples_tb/comp_test/UC1 File: C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd Line: 7
+# Fatal error in file C:/Users/Lucas/Downloads/PC Completo/UC/UC.vhd
+#  while elaborating region: /proc_simples_tb/comp_test/UC1
+# Load interrupted
+# Error loading design

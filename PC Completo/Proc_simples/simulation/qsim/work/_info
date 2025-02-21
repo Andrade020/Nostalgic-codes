@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Lucas\Downloads\PC Completo\Proc_simples\simulation\qsim
+vProc_Simples
+Z1 !s100 gB6Q[j=`zXQMoQ?bi2XCH3
+Z2 If^kD46BTVXnL=^akl:S6k2
+Z3 VEb=gdDOZ=0P@QE_AA^BW;2
+Z4 dC:\Users\Lucas\Downloads\PC Completo\Proc_simples\simulation\qsim
+Z5 w1499095728
+Z6 8Proc_Simples.vo
+Z7 FProc_Simples.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|Proc_Simples.vo|
+Z10 o-work work -O0
+Z11 n@proc_@simples
+!i10b 1
+!s85 0
+Z12 !s108 1499095740.523000
+Z13 !s107 Proc_Simples.vo|
+!s101 -O0
+vProc_Simples_vlg_check_tst
+!i10b 1
+Z14 !s100 Q?1Om<i:bcYBV0nPzQ_Qm2
+Z15 IjDgW`abZhYi:eTQe`6QJZ0
+Z16 V^SW25U0LZf1P4Jk6=Cl3L1
+R4
+Z17 w1499095718
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 60
+R8
+r1
+!s85 0
+31
+Z20 !s108 1499095742.836000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 n@proc_@simples_vlg_check_tst
+vProc_Simples_vlg_sample_tst
+!i10b 1
+Z24 !s100 Kb2^Q[bK9SGhMZlg9Abo@2
+Z25 Ik4z?8=56VndkI@ATcAcL^3
+Z26 V8D1fJe^H0SQ=lbm1RlLc`0
+R4
+R17
+R18
+R19
+L0 30
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@proc_@simples_vlg_sample_tst
+vProc_Simples_vlg_vec_tst
+!i10b 1
+!s100 Lh5EGIPl=kNnN0[UIJ`?61
+IQZl?7Cg7`C_jS`gYkOjH80
+Z28 VzP:l11FHBJh_Y`_084i[S0
+R4
+R17
+R18
+R19
+Z29 L0 432
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@proc_@simples_vlg_vec_tst
